@@ -1,6 +1,6 @@
-# Contributing to Cirrus
+# Contributing to Bluesky
 
-Thanks for your interest in improving Cirrus! This template is open source under
+Thanks for your interest in improving Bluesky! This template is open source under
 the [MIT License](./LICENSE), and contributions of all sizes are welcome.
 
 ## Ways to contribute

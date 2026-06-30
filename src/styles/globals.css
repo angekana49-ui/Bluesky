@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* ─────────────────────────────────────────
-   CIRRUS — Design Tokens
+   BLUESKY — Design Tokens
    Sky-blue/white palette, Inter + Georgia
 ───────────────────────────────────────── */
 
@@ -94,7 +94,7 @@ body::before {
     linear-gradient(115deg, rgba(255,255,255,0) 0%, var(--page-sheen) 18%, rgba(255,255,255,0) 36%) 0 0 / 240% 100%;
   opacity: var(--page-sheen-opacity);
   mix-blend-mode: screen;
-  animation: cirrus-shine 18s linear infinite;
+  animation: bluesky-shine 18s linear infinite;
   z-index: 0;
 }
 
@@ -109,33 +109,33 @@ body > * {
 }
 
 /* ─── Typography helpers ─── */
-.cirrus-display {
+.bluesky-display {
   font-family: var(--font-display);
   font-weight: 900;
   letter-spacing: -0.03em;
   line-height: 1.05;
 }
 
-.cirrus-italic {
+.bluesky-italic {
   font-family: var(--font-italic);
   font-style: italic;
 }
 
 /* ─── Component primitives ─── */
-.cirrus-card {
+.bluesky-card {
   background: white;
   border: 1px solid rgba(0,0,0,0.07);
   border-radius: 20px;
   box-shadow: 0 16px 44px rgba(15, 23, 42, 0.06);
 }
 
-.cirrus-card-muted {
+.bluesky-card-muted {
   background: var(--gray-50);
   border: 1px solid rgba(0,0,0,0.07);
   border-radius: 20px;
 }
 
-.cirrus-badge {
+.bluesky-badge {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -145,7 +145,7 @@ body > * {
   border-radius: 999px;
 }
 
-.cirrus-btn-primary {
+.bluesky-btn-primary {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -159,9 +159,9 @@ body > * {
   cursor: pointer;
   transition: background 150ms ease;
 }
-.cirrus-btn-primary:hover { background: rgba(0,0,0,0.82); }
+.bluesky-btn-primary:hover { background: rgba(0,0,0,0.82); }
 
-.cirrus-btn-ghost {
+.bluesky-btn-ghost {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -175,10 +175,10 @@ body > * {
   cursor: pointer;
   transition: color 150ms ease;
 }
-.cirrus-btn-ghost:hover { color: black; }
+.bluesky-btn-ghost:hover { color: black; }
 
 /* ─── Pill nav ─── */
-.cirrus-nav-pill {
+.bluesky-nav-pill {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -187,7 +187,7 @@ body > * {
   padding: 4px 6px;
 }
 
-.cirrus-nav-link {
+.bluesky-nav-link {
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 500;
@@ -198,15 +198,15 @@ body > * {
   border: none;
   background: transparent;
 }
-.cirrus-nav-link:hover { color: black; }
-.cirrus-nav-link.active {
+.bluesky-nav-link:hover { color: black; }
+.bluesky-nav-link.active {
   background: white;
   color: black;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
 /* ─── Section spacing ─── */
-.cirrus-section {
+.bluesky-section {
   padding: 112px 24px;
 }
 
@@ -328,7 +328,7 @@ body > * {
   body::before { animation: none; }
 }
 
-@keyframes cirrus-shine {
+@keyframes bluesky-shine {
   0% { background-position: -120% 0; }
   100% { background-position: 120% 0; }
 }
@@ -349,41 +349,41 @@ html.night body {
 }
 
 /* ─── Night mode: hide white decorative overlays ─── */
-html.night .cirrus-veil {
+html.night .bluesky-veil {
   opacity: 0 !important;
 }
 
 /* ─── Night mode: section & page backgrounds ─── */
-html.night .cirrus-features {
+html.night .bluesky-features {
   background: #07111f !important;
 }
-html.night .cirrus-inbox {
+html.night .bluesky-inbox {
   background: linear-gradient(180deg, #07111f 0%, #091523 50%, #0a1828 100%) !important;
 }
-html.night .cirrus-pricing {
+html.night .bluesky-pricing {
   background: linear-gradient(180deg, #060f1d 0%, #08122a 38%, #09152e 100%) !important;
 }
-html.night .cirrus-footer {
+html.night .bluesky-footer {
   background: rgba(5, 9, 20, 0.94) !important;
   border-top-color: rgba(255, 255, 255, 0.07) !important;
 }
 
 /* ─── Night mode: navbar ─── */
-html.night .cirrus-nav {
+html.night .bluesky-nav {
   background: rgba(10, 18, 35, 0.82) !important;
   border-color: rgba(255, 255, 255, 0.08) !important;
 }
-html.night .cirrus-nav-pill-wrap {
+html.night .bluesky-nav-pill-wrap {
   background: rgba(255, 255, 255, 0.06) !important;
   border-color: rgba(255, 255, 255, 0.10) !important;
 }
 
 /* ─── Night mode: hero sky crossfade ─── */
-html.night .cirrus-sky-day   { opacity: 0; }
-html.night .cirrus-sky-night { opacity: 1; }
+html.night .bluesky-sky-day   { opacity: 0; }
+html.night .bluesky-sky-night { opacity: 1; }
 
 /* ─── Night mode: mute clouds to blue-grey ─── */
-html.night .cirrus-cloud-bg {
+html.night .bluesky-cloud-bg {
   filter: brightness(0.38) saturate(0.4) hue-rotate(210deg);
   transition: filter 600ms ease;
 }

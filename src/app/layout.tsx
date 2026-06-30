@@ -11,12 +11,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cirrus - Quiet automation for small teams",
+  title: "Bluesky - Quiet automation for small teams",
   description:
     "An unhurried operations platform for small teams. Secure every lead, draft every reply, and watch every move without the dashboard noise.",
   keywords: ["automation", "inbox", "CRM", "AI replies", "small business"],
   openGraph: {
-    title: "Cirrus - Quiet automation for small teams",
+    title: "Bluesky - Quiet automation for small teams",
     description: "Run your business on a quieter kind of automation.",
     type: "website",
   },

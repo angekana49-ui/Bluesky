@@ -1,8 +1,8 @@
 {
-  "name": "cirrus-template",
+  "name": "bluesky-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Cirrus landing page template — sky aesthetic, fully editable via SiteConfig",
+  "description": "Bluesky landing page template — sky aesthetic, fully editable via SiteConfig",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Cirrus sky palette
+        // Bluesky sky palette
         sky: {
           50:  "#f0f8ff",
           100: "#dce8f0",
@@ -22,9 +22,9 @@ const config: Config = {
         "gray-50":  "#f8f8f7",
         "gray-100": "#f3f3f2",
         // Accents
-        "cirrus-indigo":  "#6366f1",
-        "cirrus-orange":  "#f97316",
-        "cirrus-green":   "#22c55e",
+        "bluesky-indigo":  "#6366f1",
+        "bluesky-orange":  "#f97316",
+        "bluesky-green":   "#22c55e",
       },
       fontFamily: {
         sans:    ["Inter", "Helvetica Neue", "-apple-system", "sans-serif"],

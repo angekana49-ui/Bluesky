@@ -6,12 +6,10 @@ export default function Navbar({ config }: { config: SiteConfig }) {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 pt-3">
-      <div className="cirrus-nav mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/60 bg-white/70 px-3 py-2.5 shadow-[0_14px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl sm:px-4">
+      <div className="bluesky-nav mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/60 bg-white/70 px-3 py-2.5 shadow-[0_14px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl sm:px-4">
         <div className="flex items-center gap-2">
-          <div className="flex h-7 w-7 items-center justify-center rounded-full bg-black shadow-sm">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-              <path d="M7 1L13 4V10L7 13L1 10V4L7 1Z" fill="white" />
-            </svg>
+          <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-black shadow-sm">
+            <span className="text-sm font-black leading-none text-white" aria-hidden="true">B</span>
           </div>
           <div>
             <span className="block text-sm font-semibold tracking-tight text-black nt-primary">{config.brand.name}</span>

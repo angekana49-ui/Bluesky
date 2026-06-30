@@ -70,15 +70,15 @@ export interface SiteConfig {
 
 export const defaultConfig: SiteConfig = {
   brand: {
-    name: "Cirrus",
-    tagline: "Quiet automation for busy teams",
+    name: "Bluesky",
+    tagline: "Calm software for small teams",
     description:
-      "An unhurried operations platform for small teams. Secure every lead, draft every reply, and watch every move without the dashboard noise.",
+      "Bluesky brings your messages, leads, and numbers into one clear sky — so your team can focus on the work, not the tooling.",
   },
   hero: {
-    headline: "Run your business on a quieter kind of automation.",
+    headline: "Clear skies for the way your team works.",
     subheadline:
-      "Cirrus is an unhurried operations platform for small teams. Secure every lead, draft every reply, and watch every move without the dashboard noise.",
+      "Bluesky keeps every conversation, pipeline, and metric in one calm place. Day or night — yes, there is a dark mode — it stays out of your way until you need it.",
     ctaPrimary: "Start a 14-day trial",
     ctaSecondary: "Watch the 90-second tour",
   },
@@ -113,7 +113,7 @@ export const defaultConfig: SiteConfig = {
         icon: "A",
         title: "Honest analytics",
         description:
-          "Six metrics, no vanity. Pick the one you report to your team on Monday and Cirrus quietly defends it the rest of the week.",
+          "Six metrics, no vanity. Pick the one you report to your team on Monday and Bluesky quietly defends it the rest of the week.",
         stats: [
           { label: "First reply", value: "2m 09s" },
           { label: "Resolution", value: "94.2%" },
@@ -130,7 +130,7 @@ export const defaultConfig: SiteConfig = {
     bullets: [
       {
         title: "Replies drafted in tone",
-        description: "Cirrus learns from the last 90 days of your sent folder.",
+        description: "Bluesky learns from the last 90 days of your sent folder.",
       },
       {
         title: "Intent-sorted threads",
@@ -186,47 +186,47 @@ export const defaultConfig: SiteConfig = {
       "One plan per team size. Yearly is 16% less than monthly and the trial really is fourteen days.",
     plans: [
       {
-        name: "Solo",
-        price: "$18",
+        name: "Starter",
+        price: "$12",
         period: "/mo",
-        description: "For the operator who is running it all themselves.",
+        description: "For the solo founder wearing every hat.",
         features: [
           "1 seat, 2 channels",
-          "250 AI replies a month",
+          "300 AI replies a month",
           "Unified inbox and threads",
-          "Custom automations",
-          "Pipelines and reporting",
+          "Light and dark themes",
+          "Email support",
         ],
-        cta: "Start with Solo",
+        cta: "Start with Starter",
       },
       {
-        name: "Studio",
-        price: "$59",
+        name: "Team",
+        price: "$39",
         period: "/mo",
-        description: "For a small team that ships every week.",
+        description: "For a growing team that ships every week.",
         features: [
-          "Up to 8 seats, every channel",
+          "Up to 10 seats, every channel",
           "Unlimited AI replies",
           "Pipelines, rules and webhooks",
-          "Honest analytics dashboard",
+          "Clear analytics dashboard",
           "Shared snippets and tones",
         ],
-        cta: "Start a Studio trial",
+        cta: "Start a Team trial",
         recommended: true,
       },
       {
-        name: "Atelier",
+        name: "Scale",
         price: undefined,
         period: undefined,
-        description: "For agencies and studios who manage multiple brands.",
+        description: "For agencies and studios running many brands.",
         features: [
           "Unlimited seats and brands",
           "SSO and SCIM provisioning",
           "Private model fine-tuning",
           "Dedicated success lead",
-          "On-site onboarding",
+          "Priority onboarding",
         ],
-        cta: "Talk to founders",
+        cta: "Talk to the team",
         custom: true,
       },
     ],
@@ -245,7 +245,7 @@ export const defaultConfig: SiteConfig = {
 
 export default function LandingPage({ config = defaultConfig }: { config?: SiteConfig }) {
   return (
-    <div className="cirrus-root min-h-screen bg-transparent font-sans">
+    <div className="bluesky-root min-h-screen bg-transparent font-sans">
       <Navbar config={config} />
       <Reveal>
         <HeroSection config={config} />

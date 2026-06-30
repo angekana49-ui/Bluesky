@@ -24,13 +24,13 @@ export default function InboxSection({ config }: { config: SiteConfig }) {
 
   return (
     <section
-      className="cirrus-inbox relative overflow-hidden py-28"
+      className="bluesky-inbox relative overflow-hidden py-28"
       style={{
         background: "linear-gradient(180deg, #f4f8fb 0%, #eef4f9 42%, #e4edf4 100%)",
       }}
     >
-      <div className="cirrus-veil pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.8),rgba(255,255,255,0)_38%),radial-gradient(circle_at_80%_10%,rgba(255,255,255,0.6),rgba(255,255,255,0)_28%)]" />
-      <div className="cirrus-veil pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+      <div className="bluesky-veil pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.8),rgba(255,255,255,0)_38%),radial-gradient(circle_at_80%_10%,rgba(255,255,255,0.6),rgba(255,255,255,0)_28%)]" />
+      <div className="bluesky-veil pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:gap-14">
           <div>

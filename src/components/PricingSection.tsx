@@ -18,13 +18,13 @@ export default function PricingSection({ config }: { config: SiteConfig }) {
 
   return (
     <section
-      className="cirrus-pricing relative py-28"
+      className="bluesky-pricing relative py-28"
       style={{
         background: "linear-gradient(180deg, #e9f1f7 0%, #dfeaf2 35%, #d7e4ee 100%)",
       }}
     >
-      <div className="cirrus-veil pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_0,rgba(255,255,255,0.88),rgba(255,255,255,0)_42%)]" />
-      <div className="cirrus-veil pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+      <div className="bluesky-veil pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_0,rgba(255,255,255,0.88),rgba(255,255,255,0)_42%)]" />
+      <div className="bluesky-veil pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-12 text-center sm:mb-14">
           <h2 className="mx-auto max-w-3xl animate-fade-up text-[clamp(1.9rem,8vw,3.35rem)] font-black leading-[1.02] tracking-tight text-slate-950 nt-primary sm:text-[clamp(2.1rem,4vw,3.35rem)]">

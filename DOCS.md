@@ -1,6 +1,6 @@
 # Documentation — `SiteConfig` reference
 
-Cirrus renders the entire landing page from a single typed object, `SiteConfig`,
+Bluesky renders the entire landing page from a single typed object, `SiteConfig`,
 exported alongside `defaultConfig` from
 [`src/components/LandingPage.tsx`](./src/components/LandingPage.tsx).
 
@@ -18,14 +18,13 @@ export default function Home() {
 
 If no `config` prop is passed, the component uses `defaultConfig`.
 
-> **Notice / Disclaimer.** Cirrus is an independent, original reinterpretation of a
-> "sky"-inspired aesthetic, reworked and improved in this repository. It is not
-> affiliated with, sponsored by, or endorsed by any commercial template, vendor, or
-> product. "Cirrus" is used in its generic, descriptive sense (a cloud type); all
-> trademarks belong to their respective owners. Any resemblance to existing
-> commercial templates is coincidental — no third-party proprietary code or assets
-> were copied here. See the [README](./README.md#%EF%B8%8F-disclaimer--notice) for
-> the full notice.
+> **Notice / Disclaimer.** Bluesky is an independent, original project built from
+> scratch in this repository, with a custom day/night dark mode. It is not
+> affiliated with, sponsored by, or endorsed by any company, product, or commercial
+> template. All trademarks belong to their respective owners. Any resemblance to
+> existing commercial templates is coincidental — no third-party proprietary code or
+> assets were copied here. See the
+> [README](./README.md#%EF%B8%8F-disclaimer--notice) for the full notice.
 
 ---
 
@@ -137,6 +136,18 @@ can include currency symbols and units.
 | `revenueTrend` | `string` | Trend caption. |
 
 ---
+
+## Theming (light / dark)
+
+Bluesky ships with a day/night dark mode:
+
+- The toggle is implemented in
+  [`src/components/NavbarControls.tsx`](./src/components/NavbarControls.tsx).
+- It adds/removes a `night` class on the root `<html>` element.
+- Dark styles are defined under `html.night …` selectors in
+  [`src/styles/globals.css`](./src/styles/globals.css).
+- The active theme persists in `localStorage` under the `bluesky-theme` key and
+  falls back to the OS `prefers-color-scheme` on first visit.
 
 ## Styling
 

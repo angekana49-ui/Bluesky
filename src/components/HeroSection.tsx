@@ -13,7 +13,7 @@ export default function HeroSection({ config }: { config: SiteConfig }) {
     <section className="relative overflow-hidden pt-24 pb-16 sm:pt-[8.5rem] sm:pb-28">
       {/* Day sky */}
       <div
-        className="cirrus-sky-day absolute inset-0 transition-opacity duration-700"
+        className="bluesky-sky-day absolute inset-0 transition-opacity duration-700"
         style={{
           background:
             "radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.18) 22%, rgba(255,255,255,0) 44%), linear-gradient(180deg, #3A93BF 0%, #4DA6CC 13%, #63B7D6 26%, #7DC4DF 40%, #98D1E8 53%, #B3DEF0 66%, #CAEAF6 78%, #DAEFF8 88%, #EAF5FB 100%)",
@@ -21,7 +21,7 @@ export default function HeroSection({ config }: { config: SiteConfig }) {
       />
       {/* Night sky */}
       <div
-        className="cirrus-sky-night absolute inset-0 opacity-0 transition-opacity duration-700"
+        className="bluesky-sky-night absolute inset-0 opacity-0 transition-opacity duration-700"
         style={{
           background:
             "linear-gradient(180deg, #020c18 0%, #061422 18%, #0b1c30 40%, #0e1f30 65%, #101e2a 100%)",
@@ -96,7 +96,7 @@ export default function HeroSection({ config }: { config: SiteConfig }) {
 
 function CloudBackground() {
   return (
-    <div className="cirrus-cloud-bg pointer-events-none absolute inset-0 select-none overflow-hidden">
+    <div className="bluesky-cloud-bg pointer-events-none absolute inset-0 select-none overflow-hidden">
       <svg
         className="absolute inset-0 h-full w-full"
         viewBox="0 0 1440 820"

@@ -20,15 +20,13 @@ export default function Footer({ config }: { config: SiteConfig }) {
   ];
 
   return (
-    <footer className="cirrus-footer border-t border-white/70 bg-white/70 pt-12 pb-8 backdrop-blur-sm sm:pt-14">
+    <footer className="bluesky-footer border-t border-white/70 bg-white/70 pt-12 pb-8 backdrop-blur-sm sm:pt-14">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-10 grid gap-8 md:grid-cols-5 sm:mb-12">
           <div className="col-span-2">
             <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-950">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M7 1L13 4V10L7 13L1 10V4L7 1Z" fill="white" />
-                </svg>
+              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-slate-950">
+                <span className="text-sm font-black leading-none text-white" aria-hidden="true">B</span>
               </div>
               <span className="text-sm font-semibold text-slate-950 nt-primary">{config.brand.name}</span>
             </div>

@@ -11,10 +11,10 @@ export default function FeaturesSection({ config }: { config: SiteConfig }) {
   const activeFeature: number = 0;
 
   return (
-    <section className="cirrus-features relative overflow-hidden bg-[#f4f8fb] py-20 sm:py-24">
-      <div className="cirrus-veil absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.86),rgba(255,255,255,0)_45%)]" />
-      <div className="cirrus-veil absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
-      <div className="cirrus-veil absolute inset-x-0 top-24 h-40 bg-[radial-gradient(circle_at_50%_0,rgba(255,255,255,0.7),rgba(255,255,255,0)_72%)]" />
+    <section className="bluesky-features relative overflow-hidden bg-[#f4f8fb] py-20 sm:py-24">
+      <div className="bluesky-veil absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.86),rgba(255,255,255,0)_45%)]" />
+      <div className="bluesky-veil absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
+      <div className="bluesky-veil absolute inset-x-0 top-24 h-40 bg-[radial-gradient(circle_at_50%_0,rgba(255,255,255,0.7),rgba(255,255,255,0)_72%)]" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-12 text-center sm:mb-14">
           <h2 className="mx-auto max-w-3xl animate-fade-up text-[clamp(1.75rem,8vw,3.15rem)] font-black leading-[1.04] tracking-tight text-slate-950 nt-primary sm:text-[clamp(2rem,4vw,3.15rem)]">

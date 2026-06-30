@@ -9,7 +9,7 @@ export default function NavbarControls({ links }: { links: string[] }) {
   const [theme, setTheme] = useState<Theme>("day");
 
   useEffect(() => {
-    const storedTheme = window.localStorage.getItem("cirrus-theme");
+    const storedTheme = window.localStorage.getItem("bluesky-theme");
     const initialTheme: Theme =
       storedTheme === "night" || (!storedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)
         ? "night"
@@ -24,12 +24,12 @@ export default function NavbarControls({ links }: { links: string[] }) {
     } else {
       document.documentElement.classList.remove("night");
     }
-    window.localStorage.setItem("cirrus-theme", theme);
+    window.localStorage.setItem("bluesky-theme", theme);
   }, [theme]);
 
   return (
     <>
-      <div className="cirrus-nav-pill-wrap hidden md:flex items-center gap-1 rounded-full border border-slate-200/80 bg-slate-50/90 px-1.5 py-1">
+      <div className="bluesky-nav-pill-wrap hidden md:flex items-center gap-1 rounded-full border border-slate-200/80 bg-slate-50/90 px-1.5 py-1">
         {links.map((link) => (
           <button
             key={link}
