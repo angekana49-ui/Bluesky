@@ -18,6 +18,15 @@ export default function Home() {
 
 If no `config` prop is passed, the component uses `defaultConfig`.
 
+> **Notice / Disclaimer.** Cirrus is an independent, original reinterpretation of a
+> "sky"-inspired aesthetic, reworked and improved in this repository. It is not
+> affiliated with, sponsored by, or endorsed by any commercial template, vendor, or
+> product. "Cirrus" is used in its generic, descriptive sense (a cloud type); all
+> trademarks belong to their respective owners. Any resemblance to existing
+> commercial templates is coincidental — no third-party proprietary code or assets
+> were copied here. See the [README](./README.md#%EF%B8%8F-disclaimer--notice) for
+> the full notice.
+
 ---
 
 ## Top-level shape

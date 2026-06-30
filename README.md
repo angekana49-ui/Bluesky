@@ -120,6 +120,34 @@ src/
 | Display font | Inter 900 |
 | Italic display | Georgia italic |
 
+## ⚖️ Disclaimer / Notice
+
+This project is an **independent, original reinterpretation** built around a calm
+"sky"-inspired visual aesthetic that it refers to internally as *Cirrus*. It is a
+**reworked and improved** take on that style — written from scratch in this
+repository.
+
+- This project is **not affiliated with, sponsored by, or endorsed by** any
+  commercial template, vendor, company, or product that may share a similar name
+  or look.
+- *"Cirrus"*, *"Bluesky"*, and any other names referenced here are used purely as
+  descriptive/aesthetic labels. All trademarks, service marks, and brand names are
+  the property of their respective owners.
+- The word "Cirrus" (a common cloud type) is used in its **generic, descriptive
+  sense** and implies no association with any branded product.
+- **Any resemblance to existing commercial templates or products is coincidental.**
+  No proprietary code, assets, or content from any third-party template has been
+  copied into this repository.
+- The software is provided "as is", without warranty of any kind, as stated in the
+  [MIT License](./LICENSE).
+
+> 🇫🇷 Ce projet est une réinterprétation indépendante et originale d'une esthétique
+> visuelle « ciel » dite *Cirrus*, retravaillée et améliorée. Il n'est **affilié à
+> aucun** fournisseur de templates, marque ou produit commercial. Tous les noms et
+> marques cités appartiennent à leurs détenteurs respectifs. **Toute ressemblance
+> avec un template ou produit commercial existant serait fortuite** — aucun code ni
+> asset propriétaire tiers n'a été copié dans ce dépôt.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md)
