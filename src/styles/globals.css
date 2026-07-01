@@ -389,9 +389,9 @@ html.night .bluesky-cloud-bg {
 }
 
 /* ─── Night mode: text helpers ─── */
-html.night .nt-primary   { color: #dde8f4 !important; }
-html.night .nt-secondary { color: #7490a8 !important; }
-html.night .nt-muted     { color: #4e6070 !important; }
+html.night .nt-primary   { color: #eaf1f9 !important; }
+html.night .nt-secondary { color: #9db2c6 !important; }
+html.night .nt-muted     { color: #8397ab !important; }
 
 /* ─── Night mode: glass pills (hero badge + trust chips) ─── */
 html.night .nt-pill {
